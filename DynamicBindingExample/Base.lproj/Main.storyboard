@@ -690,17 +690,11 @@
                                 <rect key="frame" x="172" y="233" width="136" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="rNh-bj-yuX"/>
-                                <connections>
-                                    <action selector="firstNumberSliderChanged:" target="XfG-lQ-9wD" id="WRz-mT-vil"/>
-                                </connections>
                             </slider>
                             <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vee-kc-fH4">
                                 <rect key="frame" x="172" y="195" width="136" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="9vL-CJ-q6K"/>
-                                <connections>
-                                    <action selector="secondNumberSliderChanged:" target="XfG-lQ-9wD" id="Ydc-Yu-k1c"/>
-                                </connections>
                             </slider>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy6-Pq-xIp">
                                 <rect key="frame" x="319" y="159" width="71" height="17"/>
@@ -740,13 +734,6 @@
                             </textField>
                         </subviews>
                     </view>
-                    <connections>
-                        <outlet property="firstNumberLabel" destination="uhd-ah-W3j" id="eSo-7s-rqP"/>
-                        <outlet property="firstNumberSlider" destination="xw7-0h-s00" id="hz5-AC-fdl"/>
-                        <outlet property="resultLabel" destination="Jy6-Pq-xIp" id="em8-PV-bzP"/>
-                        <outlet property="secondLabelLabel" destination="BKd-dh-hDC" id="7vj-ch-UCq"/>
-                        <outlet property="secondNumberSlider" destination="vee-kc-fH4" id="tzX-fW-KR0"/>
-                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
