@@ -690,11 +690,17 @@
                                 <rect key="frame" x="172" y="233" width="136" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="rNh-bj-yuX"/>
+                                <connections>
+                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="self.model.firstValue" id="8uY-Ex-Ov5"/>
+                                </connections>
                             </slider>
                             <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vee-kc-fH4">
                                 <rect key="frame" x="172" y="195" width="136" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="9vL-CJ-q6K"/>
+                                <connections>
+                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="self.model.secondValue" id="tFg-kS-r9w"/>
+                                </connections>
                             </slider>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy6-Pq-xIp">
                                 <rect key="frame" x="319" y="159" width="71" height="17"/>
@@ -713,6 +719,9 @@
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="self.model.firstValue" id="MHj-vD-gNv"/>
+                                </connections>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKd-dh-hDC">
                                 <rect key="frame" x="319" y="197" width="71" height="17"/>
@@ -722,6 +731,9 @@
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="self.model.secondValue" id="T1w-xv-UlF"/>
+                                </connections>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ok2-xD-ibJ">
                                 <rect key="frame" x="175" y="159" width="133" height="17"/>
@@ -736,6 +748,7 @@
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController representsSharedInstance="YES" id="sPP-AS-WcS"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
