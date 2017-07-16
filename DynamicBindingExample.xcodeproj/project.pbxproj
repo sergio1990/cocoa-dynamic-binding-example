@@ -11,6 +11,7 @@
 		4913A8E21F1B2A6800ED21F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A8E11F1B2A6800ED21F0 /* ViewController.swift */; };
 		4913A8E41F1B2A6800ED21F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4913A8E31F1B2A6800ED21F0 /* Assets.xcassets */; };
 		4913A8E71F1B2A6800ED21F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4913A8E51F1B2A6800ED21F0 /* Main.storyboard */; };
+		4913A8EF1F1B42C600ED21F0 /* MultiplicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A8EE1F1B42C600ED21F0 /* MultiplicationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4913A8E31F1B2A6800ED21F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4913A8E61F1B2A6800ED21F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4913A8E81F1B2A6800ED21F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4913A8EE1F1B42C600ED21F0 /* MultiplicationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4913A8E31F1B2A6800ED21F0 /* Assets.xcassets */,
 				4913A8E51F1B2A6800ED21F0 /* Main.storyboard */,
 				4913A8E81F1B2A6800ED21F0 /* Info.plist */,
+				4913A8EE1F1B42C600ED21F0 /* MultiplicationModel.swift */,
 			);
 			path = DynamicBindingExample;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4913A8EF1F1B42C600ED21F0 /* MultiplicationModel.swift in Sources */,
 				4913A8E21F1B2A6800ED21F0 /* ViewController.swift in Sources */,
 				4913A8E01F1B2A6800ED21F0 /* AppDelegate.swift in Sources */,
 			);

@@ -16,6 +16,8 @@ class ViewController: NSViewController {
     @IBOutlet weak var secondLabelLabel: NSTextField!
     @IBOutlet weak var resultLabel: NSTextField!
     
+    var model : MultiplicationModel = MultiplicationModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
