@@ -703,7 +703,7 @@
                                 </connections>
                             </slider>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy6-Pq-xIp">
-                                <rect key="frame" x="319" y="159" width="37" height="17"/>
+                                <rect key="frame" x="319" y="159" width="71" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="0" id="rA1-V2-fM7">
                                     <font key="font" metaFont="system"/>
@@ -712,7 +712,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhd-ah-W3j">
-                                <rect key="frame" x="319" y="235" width="37" height="17"/>
+                                <rect key="frame" x="319" y="235" width="71" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="0" id="8nI-qc-3xe">
                                     <font key="font" metaFont="system"/>
@@ -721,7 +721,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKd-dh-hDC">
-                                <rect key="frame" x="319" y="197" width="37" height="17"/>
+                                <rect key="frame" x="319" y="197" width="71" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="0" id="Ky4-mu-izu">
                                     <font key="font" metaFont="system"/>

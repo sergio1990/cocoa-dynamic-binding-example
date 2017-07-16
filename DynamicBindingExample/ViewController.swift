@@ -29,9 +29,18 @@ class ViewController: NSViewController {
     }
 
     @IBAction func firstNumberSliderChanged(_ sender: Any) {
+        self.firstNumberLabel.stringValue = self.firstNumberSlider.stringValue
+        multiplication(firstNumber: self.firstNumberSlider.floatValue, secondNumber: self.secondNumberSlider.floatValue)
     }
 
     @IBAction func secondNumberSliderChanged(_ sender: Any) {
+        self.secondLabelLabel.stringValue = self.secondNumberSlider.stringValue
+        multiplication(firstNumber: self.firstNumberSlider.floatValue, secondNumber: self.secondNumberSlider.floatValue)
+    }
+    
+    func multiplication(firstNumber: Float, secondNumber: Float) {
+        let multiplicationValue = firstNumber * secondNumber
+        self.resultLabel.floatValue = multiplicationValue
     }
     
 }
