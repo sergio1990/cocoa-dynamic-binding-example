@@ -17,4 +17,8 @@ class MultiplicationModel: NSObject {
             return firstValue * secondValue
         }
     }
+    
+    dynamic class func keyPathsForValuesAffectingResult() -> Set<NSObject> {
+        return ["firstValue" as NSObject, "secondValue" as NSObject]
+    }
 }
